@@ -7,3 +7,4 @@
 * HTML
 * CSS
 * JS
+### A2, now I try to devote time to English classes every day
