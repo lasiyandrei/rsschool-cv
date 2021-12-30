@@ -4,42 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>My resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="">
-        <header class="">
+    <div class="wrapper">
+        <header class="header">
+            <nav class="menu">  
+            </nav>
           </header>
-        <section class="">
-          <aside class="">
-            <div class="">
+        <section class="cv_all">
+          <aside class="sidebar">
+            <div class="avatar">
+              <img src="images\snowman.jpg" alt="foto">
             </div>
-            <h2 class="">Contacts</h2>
-            <div class="">
+            <h2 class="headings">Contacts</h2>
+            <div class="contacts">
               <ul>
-                <li></li>
-                <li></li>
+                <li>E-mail: lasiyandrei@gmail.com</li>
+                <li>tel.: +375(44)7787985</li>
               </ul>
             </div>
-            <section class="">
-              <h2 class="">Skills</h2>
+            <section class="skills_info">
+              <h2 class="skills">Skills</h2>
               <div>
-                <ul class="">
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
+                <ul class="list_skills">
+                  <li>html</li>
+                  <li>css</li>
+                  <li>Git</li>
+                  <li>GitHub</li>
                 </ul>
               </div>
             </section>
           </aside>
-          <section class="">
-            <div class="">
-               <h2 class=""></h2>
+          <section class="info">
+            <div class="name_prof">
+               <h2 class="headings">Lasy Andrey</h2>
             </div>
-            <div class="">
-              <h2 class="">Personal qualities</h2>
+            <div class="about_me">
+              <h2 class="headings">Personal qualities</h2>
               <ul>
                 <li>communicable</li>
                 <li>stress resistance</li>
@@ -47,19 +50,30 @@
                 </li>
               </ul>
             </div>
-            <div class="">
-              <h2 class="">Education / training courses</h2>
+            <div class="education">
+              <h2 class="headings">Education / training courses</h2>
               <ul>
                 <li>JavaScript courses in RS School</li>
               </ul>
             </div>
-            <div class="">
-              <h2 class="">English language</h2>
-              <span></span>
+            <div class="example_code">
+              <h2 class="Headings">Example of code</h2>
+              <pre>
+                class DepthCalculator {
+                    calculateDepth(arr) {
+                      if (!Array.isArray(arr)) return 0;  
+                      return 1 + Math.max(...arr.map(item => this.calculateDepth(item)), 0);
+                    }
+                  };
+              </pre>
+            </div>
+            <div class="english">
+              <h2 class="headings">English language</h2>
+              <span>A2, I am working on improving</span>
             </div>
           </section>
         </section>
-        <footer class="">
+        <footer class="footer">
             <a href="https://github.com/lasiyandrei">GitHub</a>
           </footer>
       </div>  
