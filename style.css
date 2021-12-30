@@ -1,6 +1,6 @@
 
 * {
-    margin: 10;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -16,14 +16,14 @@
     font-size: 1.25em;
   }
   .wrapper {
-    margin-left: auto;
-    margin-right: auto;
     background-color: #dce2ca;
+    margin: 0 auto;
+    width: 1200px
   }
   
   .cv_all {
+    margin: 0 auto;
     display: flex;
-    height: 100%;
   }
   
   /*.menu {
