@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="menu">  
+            </nav>
+          </header>
+        <section class="cv_all">
+          <aside class="sidebar">
+            <div class="avatar">
+              <img src="snowman.jpg" alt="foto">
+            </div>
+            <h2 class="headings">Contacts</h2>
+            <div class="contacts">
+              <ul>
+                <li>E-mail: lasiyandrei@gmail.com</li>
+                <li>tel.: +375(44)7787985</li>
+              </ul>
+            </div>
+            <section class="skills_info">
+              <h2 class="skills">Skills</h2>
+              <div>
+                <ul class="list_skills">
+                  <li>html</li>
+                  <li>css</li>
+                  <li>Git</li>
+                  <li>GitHub</li>
+                </ul>
+              </div>
+            </section>
+          </aside>
+          <section class="info">
+            <div class="name_prof">
+               <h2 class="headings">Lasy Andrey</h2>
+            </div>
+            <div class="about_me">
+              <h2 class="headings">Personal qualities</h2>
+              <ul>
+                <li>communicable</li>
+                <li>stress resistance</li>
+                <li>ambitious</li>
+                </li>
+              </ul>
+            </div>
+            <div class="education">
+              <h2 class="headings">Education / training courses</h2>
+              <ul>
+                <li>JavaScript courses in RS School</li>
+              </ul>
+            </div>
+            <div class="example_code">
+              <h2 class="Headings">Example of code</h2>
+              <pre>
+                class DepthCalculator {
+                    calculateDepth(arr) {
+                      if (!Array.isArray(arr)) return 0;  
+                      return 1 + Math.max(...arr.map(item => this.calculateDepth(item)), 0);
+                    }
+                  };
+              </pre>
+            </div>
+            <div class="english">
+              <h2 class="headings">English language</h2>
+              <span>A2, I am working on improving</span>
+            </div>
+          </section>
+        </section>
+        <footer class="footer">
+            <a href="https://github.com/lasiyandrei">GitHub</a>
+          </footer>
+      </div>  
+</body>
+</html>
