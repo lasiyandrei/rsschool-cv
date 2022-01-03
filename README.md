@@ -1,2 +1,1 @@
-# rsschool-cvgit checkout -b gh-pages
-https://lasiyandrei.github.io/rsschool-cv-html
+https://lasiyandrei.github.io/rsschool-cv/
